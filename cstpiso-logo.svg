@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" role="img" aria-labelledby="title desc">
+  <title id="title">CSTPISO Granilite</title>
+  <desc id="desc">Marca CSTPISO Granilite em verde oliva e grafite.</desc>
+  <defs>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d0da00"/>
+      <stop offset="100%" stop-color="#8ca000"/>
+    </linearGradient>
+    <linearGradient id="coal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#202022"/>
+      <stop offset="100%" stop-color="#5d5e62"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="768" height="768" fill="#ffffff"/>
+
+  <g filter="url(#shadow)">
+    <path
+      d="M168 86
+         C68 138 48 296 112 426
+         C165 531 274 640 406 668
+         C523 693 629 649 668 560
+         C700 488 689 404 636 348
+         C658 412 660 470 643 520
+         C616 600 533 643 432 631
+         C320 618 219 545 159 448
+         C95 344 88 228 145 155
+         C183 106 243 83 328 86
+         C272 58 213 62 168 86z"
+      fill="url(#green)"/>
+
+    <path
+      d="M360 146
+         C414 132 478 141 542 171
+         C494 171 459 180 439 199
+         C426 212 423 233 439 244
+         C460 258 495 256 553 252
+         C617 249 658 267 672 303
+         C688 347 663 387 616 397
+         C570 407 518 396 465 365
+         C511 368 544 362 564 347
+         C582 332 581 313 564 301
+         C541 284 505 288 449 292
+         C388 297 348 284 333 249
+         C317 212 330 173 360 146z"
+      fill="url(#coal)"/>
+
+    <path
+      d="M447 251
+         C442 277 433 304 420 336
+         C390 413 387 474 410 530
+         C427 572 459 592 510 588
+         C475 611 438 618 405 607
+         C357 592 331 546 327 478
+         C323 405 351 332 410 250z"
+      fill="url(#coal)"/>
+
+    <circle cx="478" cy="221" r="32" fill="url(#green)"/>
+  </g>
+
+  <g transform="translate(0 18)">
+    <text
+      x="384"
+      y="610"
+      fill="url(#coal)"
+      font-size="112"
+      font-family="Avenir Next, Montserrat, Arial, sans-serif"
+      font-weight="900"
+      text-anchor="middle"
+      letter-spacing="2">CST PISO</text>
+    <text
+      x="384"
+      y="690"
+      fill="url(#green)"
+      font-size="44"
+      font-family="Avenir Next, Montserrat, Arial, sans-serif"
+      font-weight="700"
+      text-anchor="middle"
+      letter-spacing="22">GRANILITE</text>
+  </g>
+</svg>

@@ -1,12 +1,13 @@
 # CSTPISO Redirect
 
-Pacote minimo para publicar um segundo GitHub Pages com o dominio `cstpiso.com.br` e redirecionar tudo para `https://www.granilpiso.com.br` sem o alerta de certificado do Registro.br.
+Pacote minimo para publicar um segundo GitHub Pages com o dominio `cstpiso.com.br`, exibir uma tela intermediaria da CSTPISO e redirecionar para `https://www.granilpiso.com.br` sem o alerta de certificado do Registro.br.
 
 ## O que este pacote faz
 
-- `index.html`: redireciona a raiz do dominio.
-- `404.html`: captura caminhos inexistentes no GitHub Pages e redireciona preservando caminho, query e hash.
-- `redirect.js`: monta a URL final de destino.
+- `index.html`: exibe a tela intermediaria da marca e redireciona a raiz do dominio apos 7 segundos.
+- `404.html`: captura caminhos inexistentes no GitHub Pages e reaproveita a mesma tela intermediaria preservando caminho, query e hash.
+- `redirect.js`: monta a URL final de destino, atualiza a contagem regressiva e dispara o redirecionamento automatico.
+- `cstpiso-logo.svg`: arte da marca usada na tela intermediaria.
 - `CNAME`: define `cstpiso.com.br` como dominio customizado do segundo site.
 
 ## Como publicar
@@ -41,4 +42,6 @@ Depois que a troca para DNS avancado ou externo estiver liberada, substitua o re
 
 - `https://cstpiso.com.br` abre com certificado valido.
 - `https://www.cstpiso.com.br` abre com certificado valido.
-- Ambos redirecionam imediatamente para `https://www.granilpiso.com.br`.
+- Ambos exibem a tela intermediaria da CSTPISO.
+- O usuario ve a mensagem de que a CSTPISO faz parte do Grupo GranilPiso.
+- O redirecionamento automatico acontece em 7 segundos e existe o botao `Redirecionar agora`.
