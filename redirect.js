@@ -1,6 +1,6 @@
 (function () {
   const TARGET_ORIGIN = "https://www.granilpiso.com.br";
-  const REDIRECT_DELAY_SECONDS = 7;
+  const REDIRECT_DELAY_SECONDS = 10;
   const REDIRECT_DELAY_MS = REDIRECT_DELAY_SECONDS * 1000;
   const ROOT_ALIASES = new Set(["/index.html", "/404.html"]);
 
